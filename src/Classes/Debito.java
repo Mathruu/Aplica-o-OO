@@ -3,7 +3,8 @@ package Classes;
 public class Debito {
     private Double valor;
 
-    public Debito(double valor2) {
+    public Debito(double valor) {
+        this.valor = valor;
     }
 
     public Double getValor() {

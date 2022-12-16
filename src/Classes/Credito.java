@@ -3,7 +3,8 @@ package Classes;
 public class Credito {
     public Double valor;
 
-    public Credito(double valor2) {
+    public Credito(double valor) {
+        this.valor = valor;
     }
 
     public Double getValor() {
